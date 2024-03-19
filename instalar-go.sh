@@ -65,7 +65,7 @@ fi
 #goversion=$(go version | cut -d " " -f3 | cut -c 3-);
 #goversion=$(go version | cut -d " " -f3 | sed -e 's/^..//');
 sudo -k;
-echo "Se requieren permisos para continuar, ingrese su credencial sudo.";
+echo "Se requieren permisos para continuar, ingrese su credencial de superusuario!";
 #sudo sh ./instalar-act-go.sh ${version} ${HOMEGOI} ${goversion};
 sudo sh ./instalar-inst-go.sh ${version} ${HOMEGOI};
 exit_code=$?
